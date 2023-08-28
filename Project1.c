@@ -28,6 +28,9 @@ int main()
         return 0;
     }
 
-
+    switch (equipment_num) {
+        case 1:
+            if
+    }
 
 }
