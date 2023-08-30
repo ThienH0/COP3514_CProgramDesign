@@ -2,7 +2,7 @@
 
 int main()
 {
-    int equipment_num = 0, num_days = 0, num_week = 0, num_hrs = 0;
+    int equipment_num, num_days = 0, num_week = 0, num_hrs = 0;
     int hr_rate = 0, day_rate = 0, wk_rate = 0, total = 0;
     int equip1_4hr_rate = 7, equip1_daily_rate = 10, equip1_weekly_rate = 40;
     int equip2_4hr_rate = 27, equip2_daily_rate = 39, equip2_weekly_rate = 156;
