@@ -1,3 +1,7 @@
+// Name: Thien Quang Ho U31373344
+// This program calculates and prints the charges for a floor cleaning equipment rental.
+// The user should enter the selection, enter the days and hours rented for a customer, and print the charge.
+
 #include <stdio.h>
 
 int main()
@@ -51,7 +55,7 @@ int main()
             if (num_week < 1) {
                 wk_rate = equip1_weekly_rate;
             }
-            total = hr_rate + day_rate + wk_rate;
+            total = hr_rate * num_hrs + day_rate * num_days + wk_rate * num_week;
             break;
     
 
@@ -79,7 +83,7 @@ int main()
             if (num_week < 1) {
                 wk_rate = equip3_weekly_rate;
             }
-            total = hr_rate + day_rate + wk_rate;
+            total = hr_rate * num_hrs + day_rate * num_days + wk_rate * num_week;
             break;
     
         case 4:
@@ -92,7 +96,7 @@ int main()
             if (num_week < 1) {
                 wk_rate = equip4_weekly_rate;
             }
-            total = hr_rate + day_rate + wk_rate;
+            total = hr_rate * num_hrs + day_rate * num_days + wk_rate * num_week;
             break;
     }
 
