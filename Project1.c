@@ -10,7 +10,7 @@ int main()
     int equip4_4hr_rate = 59, equip4_daily_rate = 84, equip4_weekly_rate = 336;
 
     printf("Please select from four equipment: 1, 2, 3, and 4\n");
-    printf("Enter equipment selection: %d\n", equipment_num);
+    printf("Enter equipment selection: ");
     scanf("%d", &equipment_num);
 
     if (equipment_num < 1 || equipment_num > 4)
